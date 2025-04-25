@@ -1,0 +1,9 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  <h1 class="title">Welcome!</h1>
+
+  <form method="POST" action="/register" class="process-form">
+    <p style="color: rgb(111, 0, 255)">{{ message }}</p>
+  </form>
+</div>
+{% endblock %}
